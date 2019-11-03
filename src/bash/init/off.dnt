@@ -1,0 +1,4 @@
+#recover and restart terminal
+./recover_bashrc.dnt
+gnome-terminal
+kill -s KILL `ps -o ppid= -p $$`
