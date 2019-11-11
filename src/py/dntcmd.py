@@ -5,8 +5,8 @@ import os
 
 parentPath = os.path.dirname(__file__)
 parentPath = parentPath[0 : parentPath.rfind("/")]
-onFile = os.path.join(parentPath, "bash/init/on.dnt")
-offFile = os.path.join(parentPath, "bash/init/off.dnt")
+onFile = os.path.join(parentPath, "bash/init/on.bash")
+offFile = os.path.join(parentPath, "bash/init/off.bash")
 if len(sys.argv) > 1:
     arg = sys.argv[1]
     if arg.lower() == "on":

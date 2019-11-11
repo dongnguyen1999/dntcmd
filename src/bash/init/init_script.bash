@@ -8,6 +8,9 @@ function set-title(){
 }
 set-title "DNT Commands"
 
-export DNT_HOME=`cat /var/dntcmd/DNT_HOME`
+home_path=/var/dntcmd/DNT_HOME
+cmd_path=/home/ndong/Documents/Shell-Programming/dntcmd/src/cmd
 
-export PATH=/home/ndong/Documents/Shell-Programming/dntcmd/src/cmd:$PATH
+export DNT_HOME=`cat $home_path`
+
+export PATH=$cmd_path:$PATH
