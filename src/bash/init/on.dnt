@@ -1,4 +1,5 @@
 #require init
+#!/bin/bash
 #if .bashrc_dnt is exist, recover before init again
 if [ -f "$HOME/.bashrc_dnt" ]; then
     ./recover_bashrc.dnt

@@ -1,0 +1,2 @@
+echo "Virtual box is started!"
+virtualbox &

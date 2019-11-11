@@ -1,0 +1,2 @@
+echo "Eclipse C/CPP is started!"
+/home/ndong/Programming-Tools/eclipse/cpp-2019-09/eclipse/eclipse $@ &

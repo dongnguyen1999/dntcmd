@@ -1,0 +1,2 @@
+echo "Visual studio code is started!"
+code $@ &

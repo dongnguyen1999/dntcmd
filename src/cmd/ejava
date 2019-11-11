@@ -1,0 +1,2 @@
+echo "Eclipse java is started!"
+/home/ndong/Programming-Tools/eclipse/java-2019-09/eclipse/eclipse $@ &
