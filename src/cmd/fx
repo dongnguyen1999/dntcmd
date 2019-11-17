@@ -1,0 +1,2 @@
+echo "Firefox browser is started!"
+firefox $@ &
