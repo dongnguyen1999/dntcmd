@@ -1,1 +1,1 @@
-echo "$(dirname $0)"
+cat "$(dirname $(dirname $0))/help/hi"
