@@ -1,5 +1,8 @@
 #install git
 sudo apt install git -y
-update_path="/home/ndong/Documents/Shell-Programming/dntcmd/src/update"
+update_path="$DNT_HOME/update"
+if [ ! -d $update_path ]; then
+    sudo mkdir -p $update_path
+fi
 cd $update_path
-git clone $UPDATE_REPO
+sudo git clone $UPDATE_REPO
