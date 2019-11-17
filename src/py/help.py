@@ -5,15 +5,12 @@ import os
 
 parentPath = os.path.dirname(__file__)
 parentPath = parentPath[0 : parentPath.rfind("/")]
-onFile = os.path.join(parentPath, "bash/init/on.bash")
-print(parentPath)
+helpDoc = os.path.join(parentPath, "help/help")
 if len(sys.argv) > 1:
     arg = sys.argv[1]
-    if arg.lower() == "on":s
-        subprocess.call(onFile, shell=True)
-    elif arg.lower() == "off":
-        subprocess.call(offFile, shell=True)
-    elif arg.lower() == "update":
-        subprocess.call(getUpdateFiles, shell=True)
-        subprocess.call(copyUpdateFiles, shell=True)
+    if arg.lower() == "on":
+        print("on")
     else: print("Invalid option!")
+else:
+    subprocess.call(helpDoc, shell=True)
+    
