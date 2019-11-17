@@ -12,5 +12,5 @@ if len(sys.argv) > 1:
         print("on")
     else: print("Invalid option!")
 else:
-    subprocess.call(helpDoc, shell=True)
+    subprocess.call("cat " + helpDoc, shell=True)
     
