@@ -7,8 +7,10 @@ if [ "$#" -gt 0 ]; then
     fi
     home=$1
 fi
+echo "export PATH=$PATH:$home" >> ~/.bashrc
 if [ ! -d "/var/dntcmd" ]; then
     sudo mkdir -p "/var/dntcmd"
     sudo chmod 777 /var/dntcmd
 fi
 sudo echo "$home" > /var/dntcmd/DNT_HOME
+

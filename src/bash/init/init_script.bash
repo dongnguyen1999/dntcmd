@@ -9,8 +9,8 @@ function set-title(){
 set-title "DNT Commands"
 
 home_path=/var/dntcmd/DNT_HOME
-cmd_path=/home/ndong/Documents/Shell-Programming/dntcmd/src/cmd
-
 export DNT_HOME=`cat $home_path`
+cmd_path=$DNT_HOME/cmd
+export UPDATE_REPO="git@github.com:dongnguyen1999/dntcmd.git"
 
 export PATH=$cmd_path:$PATH

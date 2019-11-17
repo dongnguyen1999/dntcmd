@@ -1,0 +1,1 @@
+python3 "`cat /var/dntcmd/DNT_HOME`/py/dntcmd.py" $@
