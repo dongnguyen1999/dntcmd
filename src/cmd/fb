@@ -1,0 +1,2 @@
+echo "Facebook is started!"
+fx fb.com $@ &
