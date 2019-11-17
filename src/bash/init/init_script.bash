@@ -1,4 +1,5 @@
 echo "Hello $USER! Welcome to DNT Commands!"
+echo "Type 'dntcmd update' to install new updates"
 echo "Type 'hi' to get information about the newest features"
 echo "Type 'help' to get help about DNT Commands usage"
 
