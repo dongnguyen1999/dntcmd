@@ -1,4 +1,6 @@
 echo "Hello $USER! Welcome to DNT Commands!"
+echo "Type 'hi' to get information about the newest features"
+echo "Type 'help' to get help about DNT Commands usage
 function set-title(){
     if [[ -z "$ORIG" ]]; then
         ORIG="$PS1"
