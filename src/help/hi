@@ -1,5 +1,6 @@
 Tính năng mới:
 - Lệnh:
+    + dping: Ping tới một thiết bị
     + findip: Xem thông tin đc ip
     + files: Mở Files explorer
     + vbox: Mở ứng dụng Virtual box
