@@ -18,7 +18,7 @@ if len(sys.argv) > 1:
         or arg1.lower() == "minhthu"
         ):
         printf("Starting remote to Thư")
-    subprocess.call("ssh minhthu@25.77.159.103", shell=True)
+        subprocess.call("ssh minhthu@25.77.159.103", shell=True)
     else:
         print("Cannot connect to this host")
 else: 
