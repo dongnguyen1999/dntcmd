@@ -2,7 +2,7 @@
 sudo apt install git -y 1> "/var/dntcmd/getupdate.log" 2> "/var/dntcmd/getupdate.log"
 echo "Updateing..."
 update_path="$DNT_HOME/update"
-echo $update_path
+echo $DNT_HOME
 if [ ! -d $update_path ]; then
     sudo mkdir -p $update_path
 fi
