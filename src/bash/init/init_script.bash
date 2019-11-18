@@ -1,5 +1,5 @@
 #Say hello user, the first messages
-echo "Hello $USER! Welcome to DNT Commands!"
+echo "Hello $USER! Welcome to DNT Commands v0.03!"
 echo "Type 'dntcmd update' to install new updates"
 echo "Type 'hi' to get information about the newest features"
 echo "Type 'dhelp' to get help about DNT Commands usage"
@@ -24,5 +24,4 @@ export UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1
 export PATH=$cmd_path:$PATH
 #set auto update
 echo "Enter your password for autoupdate"
-echo "Trọng chó"
 dntcmd update
