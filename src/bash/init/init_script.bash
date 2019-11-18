@@ -1,5 +1,5 @@
 #Say hello user, the first messages
-echo "Hello $USER! Welcome to DNT Commands ver 0.07!"
+echo "Hello $USER! Welcome to DNT Commands ver 0.08!"
 echo "Type 'hi' to get information about the newest features"
 echo "Type 'dhelp' to get help about DNT Commands usage"
 
