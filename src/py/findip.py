@@ -17,5 +17,4 @@ if len(sys.argv) > 1:
         or arg1.lower() == "minhthu"
         ):
         print("25.77.159.103")
-else:
-    subprocess.call("ifconfig", shell=True)
+else: subprocess.call("ifconfig", shell=True)

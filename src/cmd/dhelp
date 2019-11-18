@@ -1,1 +1,1 @@
-python3 "$(dirname $(dirname $0))/py/help.py"
+python3 "$(dirname $(dirname $0))/py/help.py" $@
