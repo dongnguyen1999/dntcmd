@@ -1,5 +1,5 @@
 #install git
-sudo apt install git -y
+sudo apt install git -y 1> "/var/dntcmd/getupdate.log" 2> "/var/dntcmd/getupdate.log"
 update_path="$DNT_HOME/update"
 if [ ! -d $update_path ]; then
     sudo mkdir -p $update_path
