@@ -8,6 +8,7 @@ if [ -d "$update_path/dntcmd" ]; then
     #require init
     #if .bashrc_dnt is exist, recover before init again
     parentPath="$(dirname $(dirname $0))"
+    echo ">>"
     if [ -f "$HOME/.bashrc_dnt" ]; then
         $parentPath/init/recover_bashrc.bash
     fi

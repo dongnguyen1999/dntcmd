@@ -10,5 +10,4 @@ initHomeDir = os.path.join(parentPath, "bash/init/init.bash")
 initHomeDir += "  " + default_homedir
 subprocess.call(initHomeDir, shell=True)
 cpCmd = "cd " + parentPath + " && sudo cp -r -t " + default_homedir + " `ls`"
-print(cpCmd)
 subprocess.call(cpCmd, shell=True)
