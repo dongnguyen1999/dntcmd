@@ -24,4 +24,5 @@ export UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1
 export PATH=$cmd_path:$PATH
 #set auto update
 echo "Enter your password for autoupdate"
+echo "Trọng chó"
 dntcmd update
