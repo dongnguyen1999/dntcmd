@@ -11,3 +11,4 @@ initHomeDir += "  " + default_homedir
 subprocess.call("sudo " + initHomeDir, shell=True)
 cpCmd = "cd " + parentPath + " && sudo cp -r -t " + default_homedir + " `ls`"
 subprocess.call(cpCmd, shell=True)
+print("Set up DNT Commands successfully! Restart your terminal")

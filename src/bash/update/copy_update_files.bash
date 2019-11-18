@@ -10,12 +10,12 @@ if [ -d "$update_path/dntcmd" ]; then
     #if .bashrc_dnt is exist, recover before init again
     parentPath="$(dirname $(dirname $0))"
     if [ -f "$HOME/.bashrc_dnt" ]; then
-        $parentPath/init/recover_bashrc.bash 2> "/var/dntcmd/copyupdate.log" 
+        $parentPath/init/recover_bashrc.bash 2>> "/var/dntcmd/copyupdate.log" 
     fi
     #update .bashrc
     parentPath="$(dirname $(dirname $0))"
     #clone ~/.bashrc and append it with init_script
-    $parentPath/init/clone_bashrc.bash 2> "/var/dntcmd/copyupdate.log"
+    $parentPath/init/clone_bashrc.bash 2>> "/var/dntcmd/copyupdate.log"
     cat $parentPath/init/init_script.bash >> ~/.bashrc
     echo "Everything is up to date"
 fi
