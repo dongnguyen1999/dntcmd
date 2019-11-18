@@ -1,7 +1,7 @@
 import sys
 import subprocess
 
-if len(sys.argv) > 0:
+if len(sys.argv) > 1:
     arg1 = sys.argv[1]
     if (arg1.lower() == "dong"
         or arg1.lower() == "ndong"
