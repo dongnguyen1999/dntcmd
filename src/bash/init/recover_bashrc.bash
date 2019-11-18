@@ -1,2 +1,2 @@
 #recover ~/.bashrc from ~/.bashrc_dnt
-sudo mv ~/.bashrc_dnt ~/.bashrc
+mv ~/.bashrc_dnt ~/.bashrc
