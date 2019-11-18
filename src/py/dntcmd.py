@@ -12,9 +12,9 @@ copyUpdateFiles = os.path.join(parentPath,"bash/update/copy_update_files.bash")
 if len(sys.argv) > 1:
     arg = sys.argv[1]
     if arg.lower() == "on":
-        subprocess.call(onFile, shell=True)
+        subprocess.call("sudo " + onFile, shell=True)
     elif arg.lower() == "off":
-        subprocess.call(offFile, shell=True)
+        subprocess.call("sudo " + offFile, shell=True)
     elif arg.lower() == "update":
         subprocess.call("sudo " + getUpdateFiles, shell=True)
         subprocess.call("sudo " + copyUpdateFiles, shell=True)
