@@ -1,0 +1,5 @@
+echo "Danh sách các lệnh khả dụng:"
+echo "Lệnh:"
+cat "$(dirname $(dirname $0))/help/cmdls"
+echo "Lối tắt khởi động nhanh:"
+cat "$(dirname $(dirname $0))/help/linkls"

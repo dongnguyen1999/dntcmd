@@ -1,0 +1,2 @@
+echo "Danh sách các lối tắt khởi động nhanh:"
+cat "$(dirname $(dirname $0))/help/linkls"
