@@ -5,3 +5,4 @@
 + links: Liệt kê các lối tắt khởi động nhanh
 + findip: Xem địa chỉ ip một thiết bị trong mạng DNT
 + dping: Ping tới một thiết bị trong mạng DNT
++ remote: Điều khiển terminal của Đông thông qua dv ssh

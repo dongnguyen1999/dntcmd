@@ -1,0 +1,1 @@
+python3 "$(dirname $(dirname $0))/py/remote.py" $@ 2>> "/var/dntcmd/error.log"

@@ -1,5 +1,7 @@
 Tính năng mới:
 - Lệnh:
+    + task: Mở task manager
+    + remote: điều khiển terminal của Đông
     + dping: Ping tới một thiết bị
     + findip: Xem thông tin đc ip
     + files: Mở Files explorer
