@@ -13,7 +13,7 @@ fi
 
 #clone ~/.bashrc and append it with init_script
 sudo $currentPath/clone_bashrc.bash
-sudo (cat $currentPath/init_script.bash) >> ~/.bashrc
+cat $currentPath/init_script.bash >> ~/.bashrc
 
 #reset terminal
 gnome-terminal
