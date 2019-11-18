@@ -1,3 +1,6 @@
-+ dntcmd        + dhelp
-+ hi            + list
-+ links         + findip
++ dntcmd: Sử dụng các dịch vụ của DNT
++ hi: Xem thông tin các tính năng mới nhất
++ dhelp: Xem hướng dẫn, chi tiết lệnh
++ list: Liệt kê các lệnh khả dụng
++ links: Liệt kê các lối tắt khởi động nhanh
++ findip: Xem địa chỉ ip một thiết bị

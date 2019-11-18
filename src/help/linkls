@@ -1,3 +1,6 @@
-+ files         + chr
-+ fx            + fb
-+ vbox
++ files: Mở file explorer
++ chr: Mở trình duyệt Google chrome
++ fx: Mở trình duyệt Firefox
++ fb: Mở Facebook (trên chrome)
++ vbox: Mở Virtual box
+
