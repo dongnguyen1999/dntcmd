@@ -9,7 +9,7 @@ if len(sys.argv) > 1:
         or arg1.lower() == "a"
         or arg1.lower() == "adev"
         ):
-        printf("Starting remote to Đông")
+        print("Starting remote to Đông")
         subprocess.call("ssh ndong@25.77.168.129", shell=True)
     elif (arg1.lower() == "thu"
         or arg1.lower() == "mthu"
@@ -17,10 +17,10 @@ if len(sys.argv) > 1:
         or arg1.lower() == "e"
         or arg1.lower() == "minhthu"
         ):
-        printf("Starting remote to Thư")
+        print("Starting remote to Thư")
         subprocess.call("ssh minhthu@25.77.159.103", shell=True)
     else:
         print("Cannot connect to this host")
 else: 
-    printf("Starting remote to Đông")
+    print("Starting remote to Đông")
     subprocess.call("ssh ndong@25.77.168.129", shell=True)
