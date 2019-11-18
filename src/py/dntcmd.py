@@ -16,6 +16,6 @@ if len(sys.argv) > 1:
     elif arg.lower() == "off":
         subprocess.call(offFile, shell=True)
     elif arg.lower() == "update":
-        subprocess.call(getUpdateFiles, shell=True)
-        subprocess.call(copyUpdateFiles, shell=True)
+        subprocess.call("sudo " + getUpdateFiles, shell=True)
+        subprocess.call("sudo " + copyUpdateFiles, shell=True)
     else: print("Invalid option!")
