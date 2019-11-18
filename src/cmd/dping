@@ -1,1 +1,1 @@
-python3 "$(dirname $(dirname $0))/py/ping.py" $@ >> "/var/dntcmd/error"
+python3 "$(dirname $(dirname $0))/py/ping.py" $@ 2>> "/var/dntcmd/error"
