@@ -1,2 +1,2 @@
 echo "Google chrome is started!"
-google-chrome $@ &
+google-chrome $@ & >> "/var/dntcmd/cmd.log"
