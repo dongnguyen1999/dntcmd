@@ -1,2 +1,2 @@
 echo "Virtual box is started!"
-virtualbox &
+(virtualbox $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &

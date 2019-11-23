@@ -1,5 +1,6 @@
 Tính năng mới:
 - Lệnh:
+    + tvr: Mở Teamviewer
     + task: Mở task manager
     + remote: điều khiển terminal của Đông
     + dping: Ping tới một thiết bị

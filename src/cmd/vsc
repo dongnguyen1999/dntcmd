@@ -1,2 +1,2 @@
 echo "Visual studio code is started!"
-code $@ &
+(code $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &

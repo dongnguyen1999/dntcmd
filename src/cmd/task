@@ -1,2 +1,2 @@
 echo "Task manager is started!"
-gnome-system-monitor $@ &
+(gnome-system-monitor $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &

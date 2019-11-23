@@ -1,2 +1,2 @@
 echo "Linux mint nemo is started!"
-nemo $@ &
+(nemo $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &

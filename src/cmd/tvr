@@ -1,0 +1,2 @@
+echo "Teamviewer is started!"
+(teamviewer $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &

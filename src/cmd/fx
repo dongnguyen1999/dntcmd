@@ -1,2 +1,2 @@
 echo "Firefox browser is started!"
-firefox $@ &
+(firefox $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &

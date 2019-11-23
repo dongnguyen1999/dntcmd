@@ -1,0 +1,2 @@
+echo "[Appname] is started!"
+([Command] $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &
