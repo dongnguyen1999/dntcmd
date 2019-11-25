@@ -1,0 +1,1 @@
+"$(dirname $(dirname $0))"/bash/install/install_skype.bash
