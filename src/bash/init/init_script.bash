@@ -3,7 +3,7 @@ echo "Hello $USER! Welcome to ĐNT Commands ver 0.11!"
 echo "Type 'hi' to get information about the newest features"
 echo "Type 'dhelp' to get help about ĐNT Commands usage"
 
-export PS1="\[\e[32m\]$USER@DNT-Commands:\w$\[\e[m\]"
+export PS1="\[\e[32m\]$USER@ĐNT-Commands:\[\e[m\]\[\e[34m\]\w\[\e[m\]$"
 #function to set title
 function set-title(){
     if [[ -z "$ORIG" ]]; then
