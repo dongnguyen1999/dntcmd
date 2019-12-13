@@ -1,0 +1,2 @@
+echo "Genymotion emulator is started!"
+(genymotion $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &
