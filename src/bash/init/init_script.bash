@@ -1,7 +1,7 @@
 #Say hello user, the first messages
-echo "Hello $USER! Welcome to DNT Commands ver 0.11!"
+echo "Hello $USER! Welcome to ĐNT Commands ver 0.11!"
 echo "Type 'hi' to get information about the newest features"
-echo "Type 'dhelp' to get help about DNT Commands usage"
+echo "Type 'dhelp' to get help about ĐNT Commands usage"
 
 #function to set title
 function set-title(){
@@ -11,8 +11,9 @@ function set-title(){
     TITLE="\[\e]2;$*\a\]"
     PS1="${ORIG}${TITLE}"
 }
-set-title "DNT Commands" # set title
+set-title "ĐNT Commands" # set title
 
+export PS1="$USER@ĐNT-Commands>"
 home_path=/var/dntcmd/DNT_HOME #temp
 #export path to dntcmd directory
 export DNT_HOME=`cat $home_path` 

@@ -1,0 +1,4 @@
+Lệnh dhelp: xem hướng dẫn, chi tiết về lệnh
+Sử dụng:
+    + dhelp: xem hướng dẫn sử dụng lệnh dhelp
+    + dhelp <tên lệnh>: xem hướng dẫn sử dụng lệnh chỉ định

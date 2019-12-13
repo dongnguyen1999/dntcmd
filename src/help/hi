@@ -1,4 +1,11 @@
 Tính năng mới:
+- Hướng dẫn: Gõ 'dhelp <tên lệnh>' để xem hướng dẫn
+    + dhelp
+    + files
+    + chr
+    + task
+    + vbox
+
 - Lệnh:
     + tvr: Mở Teamviewer
     + task: Mở task manager
@@ -12,3 +19,5 @@ Tính năng mới:
     + chr: Mở trình duyệt Chrome nhanh
     + hi: Xem thông tin tính năng mới
     + install_skype: Cài đặt ứng dụng Skype
+    + list: Hiển thị danh sách lệnh
+    + links: Hiển thị danh sách lỗi tắt nhanh

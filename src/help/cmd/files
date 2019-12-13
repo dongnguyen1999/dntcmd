@@ -1,0 +1,6 @@
+Lệnh files: mở trình duyệt Files giao diện đồ họa
+Sử dụng:
+    + files: mở Files explorer
+    + files . : mở Files explorer tại folder hiện tại (/terminal)
+    + files <đường dẫn folder>: mở Files explorer tại folder chỉ định
+    + Gõ thêm 'sudo' trước lệnh 'files ...' để mở Files explorer dưới quyền root
