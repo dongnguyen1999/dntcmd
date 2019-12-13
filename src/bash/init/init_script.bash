@@ -13,7 +13,7 @@ function set-title(){
 }
 set-title "ĐNT Commands" # set title
 
-export PS1="$USER@ĐNT-Commands>"
+export PS1="\[\e]0;\u@DNT-Commands: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$"
 home_path=/var/dntcmd/DNT_HOME #temp
 #export path to dntcmd directory
 export DNT_HOME=`cat $home_path` 
