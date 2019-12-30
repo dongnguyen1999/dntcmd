@@ -1,2 +1,2 @@
 echo "Eclipse C/CPP is started!"
-/home/$USER/Programming-Tools/eclipse/cpp-2019-09/eclipse/eclipse $@ &
+/usr/Programming-Tools/eclipse/cpp-2019-09/eclipse/eclipse $@ &

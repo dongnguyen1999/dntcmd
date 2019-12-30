@@ -1,2 +1,2 @@
 echo "Eclipse java is started!"
-/home/$USER/Programming-Tools/eclipse/java-2019-09/eclipse/eclipse $@ &
+/usr/Programming-Tools/eclipse/java-2019-09/eclipse/eclipse $@ &

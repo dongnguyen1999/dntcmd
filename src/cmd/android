@@ -1,2 +1,2 @@
 echo "Android studio is started!"
-/home/ndong/Programming-Tools/android-studio/bin/studio.sh $@ &
+/usr/Programming-Tools/android-studio/bin/studio.sh $@ &
