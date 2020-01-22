@@ -3,11 +3,10 @@ Tính năng mới:
     + dntcmd    VD: gõ 'dhelp dntcmd' để xem chi tiết
     + dhelp     VD: gõ 'dhelp dhelp' để xem chi tiết
     + files     ...
-    + chr
-    + task
-    + vbox
+    + dinstall
 
 - Lệnh mới:
+    + dinstall: Cài đặt gói phần mềm mới
     + version: Xem số hiệu phiên bản ĐNT commands
     + runcpp: Thực thi các file .c và .cpp
     + update: Cập nhật tất cả các package và dntcmd
