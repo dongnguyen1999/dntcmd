@@ -16,3 +16,7 @@ Tính năng mới:
     + dping: Ping tới một thiết bị
     + findip: Xem thông tin đc ip
     + files: Mở Files explorer
+
+- Gói phần mềm mới được hỗ trợ: Gõ 'dinstall <tên gói>' để cài đặt
+    + skype: ứng dụng Skype     VD: dinstall skype
+    + vsc: Visual Studio Code (editor)
