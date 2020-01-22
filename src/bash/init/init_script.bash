@@ -1,5 +1,6 @@
 #Say hello user, the first messages
-echo "Hello $USER! Welcome to ĐNT Commands ver 0.12!"
+ver=`version`
+echo "Hello $USER! Welcome to ĐNT Commands ver $ver!"
 echo "Type 'hi' to get information about the newest features"
 echo "Type 'dhelp' to get help about ĐNT Commands usage"
 

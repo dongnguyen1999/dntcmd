@@ -1,23 +1,19 @@
 Tính năng mới:
-- Hướng dẫn: Gõ 'dhelp <tên lệnh>' để xem hướng dẫn
-    + dhelp
-    + files
+- Hướng dẫn mới: Gõ 'dhelp <tên lệnh>' để xem hướng dẫn
+    + dntcmd    VD: gõ 'dhelp dntcmd' để xem chi tiết
+    + dhelp     VD: gõ 'dhelp dhelp' để xem chi tiết
+    + files     ...
     + chr
     + task
     + vbox
 
-- Lệnh:
+- Lệnh mới:
+    + version: Xem số hiệu phiên bản ĐNT commands
+    + runcpp: Thực thi các file .c và .cpp
+    + update: Cập nhật tất cả các package và dntcmd
     + tvr: Mở Teamviewer
     + task: Mở task manager
     + remote: điều khiển terminal của Đông
     + dping: Ping tới một thiết bị
     + findip: Xem thông tin đc ip
     + files: Mở Files explorer
-    + vbox: Mở ứng dụng Virtual box
-    + fb: Mở facebook.com nhanh (chr)
-    + fx: Mở trình duyệt Firefox nhanh
-    + chr: Mở trình duyệt Chrome nhanh
-    + hi: Xem thông tin tính năng mới
-    + install_skype: Cài đặt ứng dụng Skype
-    + list: Hiển thị danh sách lệnh
-    + links: Hiển thị danh sách lỗi tắt nhanh

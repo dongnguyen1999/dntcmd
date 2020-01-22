@@ -1,0 +1,7 @@
+Lệnh dntcmd: Sử dụng các dịch vụ của ĐNT
+Sử dụng:
+    + dntcmd on: Bật dịch vụ ĐNT commands
+    + dntcmd off: Tắt dịch vụ ĐNT commands
+    + dntcmd update: Cập nhật ĐNT commands
+
+
