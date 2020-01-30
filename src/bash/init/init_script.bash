@@ -1,6 +1,6 @@
 #Say hello user, the first messages
 ver=`version`
-echo -e "\e[1;32mHello \e[1;34m$USER\e[0m! Welcome to \e[1;33mĐNT Commands ver $ver!\e[0m";
+echo -e "\e[1;32mHello \e[1;34m$USER\e[1;32m! Welcome to \e[1;33mĐNT Commands ver $ver!\e[0m";
 echo -e "\e[1;32mType \e[1;31m'hi'\e[1;32m to get information about the newest features"
 echo -e "\e[1;32mType \e[1;31m'dhelp'\e[1;32m to get help about ĐNT Commands usage"
 
@@ -23,5 +23,5 @@ export UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1
 #update path
 export PATH=$cmd_path:$PATH
 #set auto update
-echo -e "\e[1;32mEnter your password for autoupdate \e[1;31m(Ctr+C to cancel)"
+echo -e "\e[1;32mEnter your password for autoupdate \e[1;31m(Ctr+C to cancel)\e[1;32m"
 dntcmd update 2>> "/var/dntcmd/update.log"

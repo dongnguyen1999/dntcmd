@@ -5,6 +5,8 @@
     \t\e[1;31m+ files\e[0m     ...\n
     \t\e[1;31m+ dinstall\e[0m\n
 
+    \n
+
 \e[1;33m- Lệnh mới:\n
     \t\e[1;31m+ dinstall:\e[0m Cài đặt gói phần mềm mới\n
     \t\e[1;31m+ version:\e[0m Xem số hiệu phiên bản ĐNT commands\n
@@ -17,6 +19,9 @@
     \t\e[1;31m+ findip:\e[0m Xem thông tin đc ip\n
     \t\e[1;31m+ files:\e[0m Mở Files explorer\n
 
+    \n
+
 \e[1;33m- Gói phần mềm mới được hỗ trợ:\e[1;32m Gõ 'dinstall <tên gói>' để cài đặt\n
     \t\e[1;31m+ skype:\e[0m ứng dụng Skype     VD: dinstall skype\n
     \t\e[1;31m+ vsc:\e[0m Visual Studio Code (editor)\n
+    
