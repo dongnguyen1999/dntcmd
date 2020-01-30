@@ -1,12 +1,11 @@
-+ dntcmd: Sử dụng các dịch vụ của ĐNT
-+ version: Xem số hiệu phiên bản ĐNT commands
-+ hi: Xem thông tin các tính năng mới nhất
-+ dhelp: Xem hướng dẫn, chi tiết lệnh
-+ list: Liệt kê các lệnh khả dụng
-+ links: Liệt kê các lối tắt khởi động nhanh
-+ update: Cập nhật tất cả các package và dntcmd
-+ findip: Xem địa chỉ ip một thiết bị trong mạng DNT
-+ dping: Ping tới một thiết bị trong mạng DNT 
-+ remote: Điều khiển terminal của Đông thông qua dv ssh
-+ install_skype: Cài đặt ứng dụng Skype
-+ runcpp: Thực thi các file .c và .cpp
+\e[1;31m+ dntcmd:\e[0m Sử dụng các dịch vụ của ĐNT\n
+\e[1;31m+ version:\e[0m Xem số hiệu phiên bản ĐNT commands\n
+\e[1;31m+ hi:\e[0m Xem thông tin các tính năng mới nhất\n
+\e[1;31m+ dhelp:\e[0m Xem hướng dẫn, chi tiết lệnh\n
+\e[1;31m+ list:\e[0m Liệt kê các lệnh khả dụng\n
+\e[1;31m+ links:\e[0m Liệt kê các lối tắt khởi động nhanh\n
+\e[1;31m+ update:\e[0m Cập nhật tất cả các package và dntcmd\n
+\e[1;31m+ findip:\e[0m Xem địa chỉ ip một thiết bị trong mạng DNT\n
+\e[1;31m+ dping:\e[0m Ping tới một thiết bị trong mạng DNT\n
+\e[1;31m+ remote:\e[0m Điều khiển terminal của Đông thông qua dv ssh\n
+\e[1;31m+ runcpp:\e[0m Thực thi các file .c và .cpp\n
