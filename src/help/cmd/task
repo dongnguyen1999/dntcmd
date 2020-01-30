@@ -1,2 +1,2 @@
-Lệnh task:
-Sử dụng mở Task manager
+\e[1;33mLệnh task:\n
+\e[0;33mSử dụng mở Task manager\n\e[0m

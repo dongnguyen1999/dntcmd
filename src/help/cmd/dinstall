@@ -1,7 +1,7 @@
-Lệnh dinstall: Cài đặt gói phần mềm mới
-Sử dụng:
-    + dinstall <tên gói>: cài đặt gói phần mềm tự động
-    VD:
-        dinstall skype: cài đặt skype
-        dinstall vsc: cài đặt visual studio code
-        ...
+\e[1;33mLệnh dinstall:\e[0;33m Cài đặt gói phần mềm mới\n
+\e[1;33mSử dụng:\n
+    \t\e[1;31m+ dinstall <tên gói>:\e[0;33m cài đặt gói phần mềm tự động\n
+    \t\e[0;33mVD:\n
+        \t\tdinstall skype: cài đặt skype\n
+        \t\tdinstall vsc: cài đặt visual studio code\n
+        \t\t...\n\e[0m

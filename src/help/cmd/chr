@@ -1,5 +1,4 @@
-Lệnh chr: khởi động nhanh ứng dụng Google Chrome
-Sử dụng:
-    + chr: Mở Chrome
-    + chr <link>: Duyệt các đường link thông qua trình duyệt Chrome
-
+\e[1;33mLệnh chr:\e[0;33m khởi động nhanh ứng dụng Google Chrome\n
+\e[1;33mSử dụng:\n
+    \t\e[1;31m+ chr:\e[0;33m Mở Chrome\n
+    \t\e[1;31m+ chr <link>:\e[0;33m Duyệt các đường link thông qua trình duyệt Chrome\n\e[0m
