@@ -1,4 +1,4 @@
-\e[0;33mXin chào! Chúng tôi có thể giúp gì cho bạn?\e[1;32m\n
+\e[1;33mXin chào! Chúng tôi có thể giúp gì cho bạn?\e[1;32m\n
 + Gõ \e[1;31m'dhelp <tên lệnh>'\e[1;32m để xem thêm chi tiết về lệnh\n
 + Gõ \e[1;31m'list'\e[1;32m để xem hiển thị danh sách các lệnh khả dụng\n
 + Gõ \e[1;31m'links'\e[1;32m để hiển thị các quick shortcut\n

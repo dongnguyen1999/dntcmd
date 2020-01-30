@@ -1,8 +1,8 @@
-\e[1;31m+ files:\e[0m Mở file explorer\n
-\e[1;31m+ chr:\e[0m Mở trình duyệt Google chrome\n
-\e[1;31m+ fx:\e[0m Mở trình duyệt Firefox\n
-\e[1;31m+ fb:\e[0m Mở Facebook (trên chrome)\n
-\e[1;31m+ vbox:\e[0m Mở Virtual box\n
-\e[1;31m+ task:\e[0m Mở task manager\n
-\e[1;31m+ tvr:\e[0m Mở Teamviewer\n
-\e[1;31m+ geny:\e[0m Mở máy ảo Genymotion\n
+\e[1;31m+ files:\e[0;33m Mở file explorer\n
+\e[1;31m+ chr:\e[0;33m Mở trình duyệt Google chrome\n
+\e[1;31m+ fx:\e[0;33m Mở trình duyệt Firefox\n
+\e[1;31m+ fb:\e[0;33m Mở Facebook (trên chrome)\n
+\e[1;31m+ vbox:\e[0;33m Mở Virtual box\n
+\e[1;31m+ task:\e[0;33m Mở task manager\n
+\e[1;31m+ tvr:\e[0;33m Mở Teamviewer\n
+\e[1;31m+ geny:\e[0;33m Mở máy ảo Genymotion\n
