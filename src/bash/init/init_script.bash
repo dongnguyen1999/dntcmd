@@ -1,10 +1,10 @@
 #Say hello user, the first messages
 ver=`version`
-echo -e "\e[1;32mHello \e[1;34m$USER\e[1;32m! Welcome to \e[1;33mĐNT Commands ver $ver!\e[1;32m";
+echo -e "\e[1;32mHello \e[1;34m$USER\e[1;32m! Welcome to \e[1;33mĐNT Commands ver $ver\e[1;32m!";
 echo -e "\e[1;32mType \e[1;31m'hi'\e[1;32m to get information about the newest features"
 echo -e "\e[1;32mType \e[1;31m'dhelp'\e[1;32m to get help about ĐNT Commands usage"
 
-export PS1="\[\033[01;32m\]$USER@ĐNT-Commands\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$"
+export PS1="\[\033[01;32m\]$USER@ĐNT-Commands\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$\[\033[01;33m\]"
 #function to set title
 function set-title(){
     if [[ -z "$ORIG" ]]; then

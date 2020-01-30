@@ -22,8 +22,8 @@ if len(sys.argv) > 1:
     arg = sys.argv[1]
     if havingHelp(arg):
         fullPath = os.path.join(cmdHelp, arg)
-        subprocess.call("cat " + fullPath, shell=True)
+        subprocess.call("echo `cat " + fullPath + "`", shell=True)
     else: print("Invalid option!")
 else:
-    subprocess.call("cat " + helpDoc, shell=True)
+    subprocess.call("echo `cat " + helpDoc + "`", shell=True)
     
