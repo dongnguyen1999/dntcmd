@@ -23,6 +23,6 @@ export UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1
 #update path
 export PATH=$cmd_path:$PATH
 #set auto update
-echo -e "\e[1;32mEnter your password for autoupdate \e[0;31m(Ctr+C to cancel)\e[1;32m"
+echo -e "\e[1;32mEnter your password for autoupdate \e[1;31m(Ctr+C to cancel)\e[1;32m"
 dntcmd update 2>> "/var/dntcmd/update.log"
 echo -e "\e[0m"
