@@ -1,22 +1,22 @@
-Tính năng mới:
-- Hướng dẫn mới: Gõ 'dhelp <tên lệnh>' để xem hướng dẫn
-    + dntcmd    VD: gõ 'dhelp dntcmd' để xem chi tiết
-    + dhelp     VD: gõ 'dhelp dhelp' để xem chi tiết
-    + files     ...
-    + dinstall
+\e[1;33mTính năng mới:\e[0m\n
+\e[1;33m- Hướng dẫn mới:\e[1;32m Gõ 'dhelp <tên lệnh>' để xem hướng dẫn\e[0m\n
+    \t\e[1;31m+ dntcmd\e[0m    VD: gõ 'dhelp dntcmd' để xem chi tiết\n
+    \t\e[1;31m+ dhelp\e[0m     VD: gõ 'dhelp dhelp' để xem chi tiết\n
+    \t\e[1;31m+ files\e[0m     ...\n
+    \t\e[1;31m+ dinstall\e[0m\n
 
-- Lệnh mới:
-    + dinstall: Cài đặt gói phần mềm mới
-    + version: Xem số hiệu phiên bản ĐNT commands
-    + runcpp: Thực thi các file .c và .cpp
-    + update: Cập nhật tất cả các package và dntcmd
-    + tvr: Mở Teamviewer
-    + task: Mở task manager
-    + remote: điều khiển terminal của Đông
-    + dping: Ping tới một thiết bị
-    + findip: Xem thông tin đc ip
-    + files: Mở Files explorer
+\e[1;33m- Lệnh mới:\n
+    \t\e[1;31m+ dinstall:\e[0m Cài đặt gói phần mềm mới\n
+    \t\e[1;31m+ version:\e[0m Xem số hiệu phiên bản ĐNT commands\n
+    \t\e[1;31m+ runcpp:\e[0m Thực thi các file .c và .cpp\n
+    \t\e[1;31m+ update:\e[0m Cập nhật tất cả các package và dntcmd\n
+    \t\e[1;31m+ tvr:\e[0m Mở Teamviewer\n
+    \t\e[1;31m+ task:\e[0m Mở task manager\n
+    \t\e[1;31m+ remote:\e[0m điều khiển terminal của Đông\n
+    \t\e[1;31m+ dping:\e[0m Ping tới một thiết bị\n
+    \t\e[1;31m+ findip:\e[0m Xem thông tin đc ip\n
+    \t\e[1;31m+ files:\e[0m Mở Files explorer\n
 
-- Gói phần mềm mới được hỗ trợ: Gõ 'dinstall <tên gói>' để cài đặt
-    + skype: ứng dụng Skype     VD: dinstall skype
-    + vsc: Visual Studio Code (editor)
+\e[1;33m- Gói phần mềm mới được hỗ trợ:\e[1;32m Gõ 'dinstall <tên gói>' để cài đặt\n
+    \t\e[1;31m+ skype:\e[0m ứng dụng Skype     VD: dinstall skype\n
+    \t\e[1;31m+ vsc:\e[0m Visual Studio Code (editor)\n
