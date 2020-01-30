@@ -13,6 +13,7 @@ function set-title(){
     TITLE="\[\e]2;$*\a\]"
     PS1="${ORIG}${TITLE}"
 }
+export PROMPT_COMMAND='echo -e "\e[0m"';
 set-title "ĐNT Commands" # set title
 home_path=/var/dntcmd/DNT_HOME #temp
 #export path to dntcmd directory
