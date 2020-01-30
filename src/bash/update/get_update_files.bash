@@ -1,6 +1,6 @@
 #install git
 sudo apt install git -y 1>> "/var/dntcmd/getupdate.log" 2>> "/var/dntcmd/getupdate.log"
-echo -e "\e[1;32mUpdateing...\e[0m"
+echo "\e[1;32mUpdateing...\e[0m"
 DNT_HOME=`cat /var/dntcmd/DNT_HOME` 
 UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1999/dntcmd.git"
 update_path="$DNT_HOME/update"
