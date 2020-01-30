@@ -1,5 +1,5 @@
 \e[1;33mTính năng mới:\e[0m\n
-\e[1;33m- Hướng dẫn mới:\e[1;32m Gõ 'dhelp <tên lệnh>' để xem hướng dẫn\e[0m\n
+\e[1;33m- Hướng dẫn mới:\e[0;32m Gõ 'dhelp <tên lệnh>' để xem hướng dẫn\e[0m\n
     \t\e[1;31m+ dntcmd\e[0m    VD: gõ 'dhelp dntcmd' để xem chi tiết\n
     \t\e[1;31m+ dhelp\e[0m     VD: gõ 'dhelp dhelp' để xem chi tiết\n
     \t\e[1;31m+ files\e[0m     ...\n
@@ -21,7 +21,7 @@
 
     \n
 
-\e[1;33m- Gói phần mềm mới được hỗ trợ:\e[1;32m Gõ 'dinstall <tên gói>' để cài đặt\n
+\e[1;33m- Gói phần mềm mới được hỗ trợ:\e[0;32m Gõ 'dinstall <tên gói>' để cài đặt\n
     \t\e[1;31m+ skype:\e[0m ứng dụng Skype     VD: dinstall skype\n
     \t\e[1;31m+ vsc:\e[0m Visual Studio Code (editor)\n
     
