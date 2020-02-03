@@ -22,9 +22,9 @@ cmd_path=$DNT_HOME/cmd #temp
 export UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1999/dntcmd.git"
 #update path
 export PATH=$cmd_path:$PATH
+#export constances
+$DNT_HOME/bash/init/export_values.bash 2>> "/var/dntcmd/error.log"
 #set auto update
 echo -e "\e[1;32mEnter your password for autoupdate \e[1;31m(Ctr+C to cancel)\e[1;32m"
 dntcmd update 2>> "/var/dntcmd/update.log"
 echo -e "\e[0m"
-#export constances
-$DNT_HOME/bash/init/export_values.bash 2>> "/var/dntcmd/error.log"
