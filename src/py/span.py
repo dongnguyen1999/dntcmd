@@ -133,26 +133,6 @@ tagnames = {
     "INLINE": ""
 }
 
-closeTag = styles.get("DEFAULT")
-
-def span(words):
-    stack = []
-    index = 0
-    result = "'"
-    while(index < len(words)):
-        wc = 1
-        if words[index] == "span":
-            while index+wc < len(words) and words[index+wc] in tagnames.keys():
-                if words[index+wc] == "INLINE" and result[0] == "'":
-                    result.pop(0)
-                    result = "-n '" + result
-                result += tagnames[words[index+wc]]
-                wc += 1
-            if wc == 1 and index != 0: result += "span "
-        else:
-            result += words[index] + " "
-        index += wc
-    return result.strip() + closeTag + "'"
             
 
 
@@ -168,6 +148,5 @@ if len(sys.argv) > 1:
         printStyles()
     elif option == "whitespaces":
         printWhitespaces()
-    else:    
-        text = span(sys.argv)
-        subprocess.call("echo " + text, shell=True)
+    else: print("Invalid option!")
+        

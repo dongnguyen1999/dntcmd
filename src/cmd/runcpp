@@ -1,1 +1,1 @@
-"$(dirname $(dirname $0))/bash/compile/runcpp.bash" $@
+"$(dirname $(dirname $0))"/bash/compile/runcpp.bash $@

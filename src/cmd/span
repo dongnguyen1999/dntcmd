@@ -1,1 +1,9 @@
-python3 "$(dirname $(dirname $0))/py/span.py" $@
+if [ "$#" -gt 0 ]
+then
+    if [ "$1" = "colors" -o "$1" = "backgrounds" -o "$1" = "styles" -o "$1" = "whitespaces" ]
+    then
+        python3 "$(dirname $(dirname $0))/py/span.py" $@
+    else
+        "$(dirname $(dirname $0))/cpp/span.exe" $@
+    fi
+fi
