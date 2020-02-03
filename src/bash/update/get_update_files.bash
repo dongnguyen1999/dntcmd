@@ -4,7 +4,6 @@ DNT_HOME=`cat /var/dntcmd/DNT_HOME`
 UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1999/dntcmd.git"
 update_path="$DNT_HOME/update"
 $DNT_HOME/cmd/span GREEN BOLD Updateing... 
-echo ">>"
 if [ ! -d $update_path ]; then
     sudo mkdir -p $update_path
 fi
