@@ -1,4 +1,4 @@
 span YELLOW BOLD Lệnh dping:span YELLOW ping tới một máy tính trong mạng ĐNT-Commands
 span YELLOW BOLD Sử dụng:
-span RED BOLD TAB + dping:span YELLOW ping tới Google '(IP: 8.8.8.8)'
-span RED BOLD TAB + 'dping <IP>':span YELLOW ping tới địa chỉ IP cụ thể
+span RED BOLD TAB + dping: span YELLOW ping tới Google '(IP: 8.8.8.8)'
+span RED BOLD TAB + 'dping <IP>': span YELLOW ping tới địa chỉ IP cụ thể
