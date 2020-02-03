@@ -3,7 +3,7 @@ sudo apt install git -y 1>> "/var/dntcmd/getupdate.log" 2>> "/var/dntcmd/getupda
 DNT_HOME=`cat /var/dntcmd/DNT_HOME` 
 UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1999/dntcmd.git"
 update_path="$DNT_HOME/update"
-echo "\e[32mUpdateing...\e[0m"
+echo "\e[1;32mUpdateing...\e[0m"
 if [ ! -d $update_path ]; then
     sudo mkdir -p $update_path
 fi

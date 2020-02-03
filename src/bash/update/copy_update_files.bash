@@ -17,7 +17,7 @@ if [ -d "$update_path/dntcmd" ]; then
     #clone ~/.bashrc and append it with init_script
     $parentPath/init/clone_bashrc.bash 2>> "/var/dntcmd/copyupdate.log"
     cat $parentPath/init/init_script.bash >> ~/.bashrc
-    echo "\e[32mEverything is up to date\e[0m"
+    echo "\e[1;32mEverything is up to date\e[0m"
 else 
-    $DNT_HOME/cmd/span RED BOLD Something wrong! Check your internet connection!
+    echo "\e[1;31mSomething wrong! Check your internet connection!\e[0m"
 fi
