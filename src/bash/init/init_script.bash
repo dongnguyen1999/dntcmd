@@ -27,4 +27,4 @@ echo -e "\e[1;32mEnter your password for autoupdate \e[1;31m(Ctr+C to cancel)\e[
 dntcmd update 2>> "/var/dntcmd/update.log"
 echo -e "\e[0m"
 #export constances
-$DNT_HOME/bash/init/export_values.bash 2>> "/var/dntcmd/error.log"
+sudo $DNT_HOME/bash/init/export_values.bash 2>> "/var/dntcmd/error.log"
