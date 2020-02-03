@@ -16,8 +16,7 @@ if [ -d "$update_path/dntcmd" ]; then
     parentPath="$(dirname $(dirname $0))"
     #clone ~/.bashrc and append it with init_script
     $parentPath/init/clone_bashrc.bash 2>> "/var/dntcmd/copyupdate.log"
-    echo ">>"
-    cat $parentPath/init/init_script.bash >> ~/.bashrc 2>> "/var/dntcmd/copyupdate.log"
+    cat $parentPath/init/init_script.bash >> ~/.bashrc
     $DNT_HOME/cmd/span GREEN BOLD Everything is up to date
 else 
     $DNT_HOME/cmd/span RED BOLD Something wrong! Check your internet connection!
