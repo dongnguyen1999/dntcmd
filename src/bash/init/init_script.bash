@@ -1,6 +1,6 @@
 #Say hello user, the first messages
 ver=`version`
-span GREEN BOLD Hello span BLUE BOLD $USER span GREEN BOLD ! Welcome to span YELLOW BOLD ĐNT Commands v$ver
+span GREEN BOLD Hello span BLUE BOLD $USER! span GREEN BOLD Welcome to span YELLOW BOLD ĐNT Commands v$ver
 span GREEN BOLD Type span RED BOLD 'hi' span GREEN BOLD to get information about the newest features
 span GREEN BOLD Type span RED BOLD 'dhelp' span GREEN BOLD to get help about ĐNT Commands usage
 

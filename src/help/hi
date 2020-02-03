@@ -1,11 +1,13 @@
 span YELLOW BOLD Tính năng mới:
-span YELLOW BOLD - Hướng dẫn mới:span GREEN BOLD Gõ span RED BOLD 'dhelp <tên lệnh>' span GREEN BOLD để xem hướng dẫn
+span YELLOW BOLD - Hướng dẫn mới: span GREEN BOLD Gõ span RED BOLD 'dhelp <tên lệnh>' span GREEN BOLD để xem hướng dẫn
 span RED BOLD TAB + dntcmd span YELLOW TAB VD: gõ 'dhelp dntcmd' để xem chi tiết
 span RED BOLD TAB + dhelp span YELLOW TAB VD: gõ 'dhelp dhelp' để xem chi tiết
 span RED BOLD TAB + files span YELLOW TAB ...
+span RED BOLD TAB + runcpp
+span RED BOLD TAB + runpy
 span RED BOLD TAB + dinstall
 span RED BOLD TAB + span
-span YELLOW BOLD - Lệnh mới:
+span YELLOW BOLD - Lệnh mới: span GREEN BOLD Gõ span RED BOLD 'list' span GREEN BOLD để xem các lệnh khác
 span RED BOLD TAB + runpy: span YELLOW Thực thi các file .py viết bằng python3
 span RED BOLD TAB + span: span YELLOW Tô màu, định dạng 1 chuỗi trên terminal
 span RED BOLD TAB + dinstall: span YELLOW Cài đặt gói phần mềm mới
