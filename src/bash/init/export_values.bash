@@ -1,0 +1,1 @@
+export COLOR_BLACK="Black"
