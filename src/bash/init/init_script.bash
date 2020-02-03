@@ -24,4 +24,5 @@ export UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1
 export PATH=$cmd_path:$PATH
 #set auto update
 span GREEN BOLD Enter your password for autoupdate span RED BOLD '(Ctr+C to cancel)'
+echo -en "\e[1;32m"
 dntcmd update 2>> "/var/dntcmd/update.log"
