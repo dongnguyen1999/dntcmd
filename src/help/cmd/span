@@ -1,0 +1,18 @@
+span YELLOW BOLD Lệnh span: span YELLOW In 1 chuỗi ra màn hình '(Như echo)', tô màu, định dạng 1 chuỗi
+span YELLOW BOLD Sử dụng:
+span RED BOLD TAB + 'span <chuỗi cần in>': span YELLOW in một chuỗi ra màn hình terminal
+span RED BOLD TAB + 'span <color | style | background | whitespace> <chuỗi cần in>': 
+span YELLOW TAB TAB in một chuỗi với các định dạng như màu sắc, nền, kiểu, ký tự thoát khác,...
+span RED BOLD TAB + 'span colors': span YELLOW hiển thị danh sách các màu chữ có thể chọn
+span RED BOLD TAB + 'span backgrounds': span YELLOW hiển thị danh sách các màu nền có thể chọn
+span RED BOLD TAB + 'span whitespaces': span YELLOW hiển thị danh sách các ký tự đặc biệt khả dụng
+span YELLOW TAB VD:
+span YELLOW BOLD TAB + "'span Nguyen Thi Minh Thu'": span YELLOW in ra chuỗi span DEFAULT Nguyen Thi Minh Thu
+span YELLOW BOLD TAB + "'span YELLOW BOLD Nguyen Thi Minh Thu'": span YELLOW in ra chuỗi span YELLOW BOLD Nguyen Thi Minh Thu
+span YELLOW BOLD TAB + "'span GREEN BLINK Nguyen Thi Minh Thu'": span YELLOW in ra chuỗi span GREEN BLINK Nguyen Thi Minh Thu
+span YELLOW BOLD TAB + "'span RED YELLOW-BG Minh Thu'": span YELLOW in ra chuỗi span RED YELLOW-BG Minh Thu
+span YELLOW BOLD TAB + "'span RED TAB Minh Thu'": span YELLOW in ra chuỗi span RED '<tab>'Minh Thu
+span YELLOW TAB + Có thể lồng nhiều span trên 1 dòng:
+span YELLOW BOLD TAB + "'span GREEN Nguyen Thi 'span YELLOW BOLD Minh Thu' 'span BLUE BLINK 26/10''":
+span YELLOW TAB TAB in ra chuỗi span GREEN Nguyen Thi span YELLOW BOLD Minh Thu span BLUE BLINK 26/10
+span YELLOW TAB + Có thể dùng span RED BOLD "'span INLINE ...'" span YELLOW để in ra chuỗi không kèm theo ký tự newline

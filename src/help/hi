@@ -4,8 +4,10 @@ span RED BOLD TAB + dntcmd span YELLOW TAB VD: gõ 'dhelp dntcmd' để xem chi 
 span RED BOLD TAB + dhelp span YELLOW TAB VD: gõ 'dhelp dhelp' để xem chi tiết
 span RED BOLD TAB + files span YELLOW TAB ...
 span RED BOLD TAB + dinstall
+span RED BOLD TAB + span
 span NEWLINE
 span YELLOW BOLD - Lệnh mới:
+span RED BOLD TAB + span: span YELLOW Tô màu, định dạng 1 chuỗi trên terminal
 span RED BOLD TAB + dinstall: span YELLOW Cài đặt gói phần mềm mới
 span RED BOLD TAB + version: span YELLOW Xem số hiệu phiên bản ĐNT commands
 span RED BOLD TAB + runcpp: span YELLOW Thực thi các file .c và .cpp

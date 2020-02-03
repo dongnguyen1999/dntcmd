@@ -28,7 +28,7 @@ def printColors():
     subprocess.call("echo '" + string + "'", shell=True)
 
 backgrounds = {
-    "DEFAULT-BG": "\e[49m",
+    "DEFAULT-COLOR-BG": "\e[49m",
     "BLACK-BG": "\e[40m",
     "GREEN-BG": "\e[42m",
     "RED-BG": "\e[41m",
@@ -50,6 +50,7 @@ backgrounds = {
 def printBackgrounds():
     string = "\e[1;33mPossible background colors:\n"
     for color in backgrounds.keys():
+        print (color)
         string += "\t" + colors.get(color[:color.rfind("-")]) + color + "\n\e[0m"
     subprocess.call("echo '" + string + "'", shell=True)
 
@@ -72,7 +73,8 @@ def printStyles():
 
 whitespaces = {
     "TAB": "\t",
-    "NEWLINE": "\n"
+    "NEWLINE": "\n",
+    "INLINE": ""
 }
 
 def printWhitespaces():
@@ -98,18 +100,21 @@ closeTag = styles.get("DEFAULT")
 def span(words):
     stack = []
     index = 0
-    result = ""
+    result = "'"
     while(index < len(words)):
         wc = 1
         if words[index] == "span":
             while index+wc < len(words) and words[index+wc] in tagnames.keys():
+                if words[index+wc] == "INLINE" and result[0] == "'":
+                    result.pop(0)
+                    result = "-n '" + result
                 result += tagnames[words[index+wc]]
                 wc += 1
             if wc == 1 and index != 0: result += "span "
         else:
             result += words[index] + " "
         index += wc
-    return result.strip() + closeTag
+    return result.strip() + closeTag + "'"
             
 
 
@@ -127,4 +132,4 @@ if len(sys.argv) > 1:
         printWhitespaces()
     else:    
         text = span(sys.argv)
-        subprocess.call("echo '" + text + "'", shell=True)
+        subprocess.call("echo " + text, shell=True)

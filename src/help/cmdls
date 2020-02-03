@@ -4,6 +4,7 @@ span RED BOLD TAB + hi: span YELLOW Xem thông tin các tính năng mới nhất
 span RED BOLD TAB + dhelp: span YELLOW Xem hướng dẫn, chi tiết lệnh
 span RED BOLD TAB + list: span YELLOW Liệt kê các lệnh khả dụng
 span RED BOLD TAB + links: span YELLOW Liệt kê các lối tắt khởi động nhanh
+span RED BOLD TAB + span: span YELLOW Tô màu, định dạng 1 chuỗi trên terminal
 span RED BOLD TAB + update: span YELLOW Cập nhật tất cả các package và dntcmd
 span RED BOLD TAB + findip: span YELLOW Xem địa chỉ ip một thiết bị trong mạng DNT
 span RED BOLD TAB + dping: span YELLOW Ping tới một thiết bị trong mạng DNT
