@@ -1,6 +1,6 @@
-\e[1;33mLệnh files:\e[0;33m mở trình duyệt Files giao diện đồ họa\n
-\e[1;33mSử dụng:\n
-    \t\e[1;31m+ files:\e[0;33m mở Files explorer\n
-    \t\e[1;31m+ files . :\e[0;33m mở Files explorer tại folder hiện tại (/terminal)\n
-    \t\e[1;31m+ files <đường dẫn folder>:\e[0;33m mở Files explorer tại folder chỉ định\n
-    \t\e[0;33m+ Gõ thêm 'sudo' trước lệnh 'files ...' để mở Files explorer dưới quyền root\n\e[0m
+span YELLOW BOLD Lệnh files: span YELLOW mở trình duyệt Files giao diện đồ họa
+span YELLOW BOLD Sử dụng:
+span RED BOLD TAB + files: span YELLOW mở Files explorer
+span RED BOLD TAB + files . : span YELLOW mở Files explorer tại folder hiện tại '(/terminal)'
+span RED BOLD TAB + 'files <đường dẫn folder>': span YELLOW mở Files explorer tại folder chỉ định
+span YELLOW TAB + Gõ thêm 'sudo' trước lệnh 'files ...' để mở Files explorer dưới quyền root\e[0m

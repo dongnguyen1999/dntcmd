@@ -1,4 +1,4 @@
-\e[1;33mLệnh dhelp:\e[0;33m xem hướng dẫn, chi tiết về lệnh\n
-\e[1;33mSử dụng:\n
-    \t\e[1;31m+ dhelp:\e[0;33m xem hướng dẫn sử dụng lệnh dhelp\n
-    \t\e[1;31m+ dhelp <tên lệnh>:\e[0;33m xem hướng dẫn sử dụng lệnh chỉ định\n\e[0m
+span YELLOW BOLD Lệnh dhelp: span YELLOW xem hướng dẫn, chi tiết về lệnh
+span YELLOW BOLD Sử dụng:
+span RED BOLD TAB + dhelp: span YELLOW xem hướng dẫn sử dụng lệnh dhelp
+span RED BOLD TAB + 'dhelp <tên lệnh>': span YELLOW xem hướng dẫn sử dụng lệnh chỉ định

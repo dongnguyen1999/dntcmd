@@ -1,27 +1,23 @@
-\e[1;33mTính năng mới:\e[0m\n
-\e[1;33m- Hướng dẫn mới:\e[1;32m Gõ \e[1;31m'dhelp <tên lệnh>'\e[1;32m để xem hướng dẫn\e[0m\n
-    \t\e[1;31m+ dntcmd\e[0;33m    VD: gõ 'dhelp dntcmd' để xem chi tiết\n
-    \t\e[1;31m+ dhelp\e[0;33m     VD: gõ 'dhelp dhelp' để xem chi tiết\n
-    \t\e[1;31m+ files\e[0;33m     ...\n
-    \t\e[1;31m+ dinstall\e[0;33m\n
-
-    \n
-
-\e[1;33m- Lệnh mới:\n
-    \t\e[1;31m+ dinstall:\e[0;33m Cài đặt gói phần mềm mới\n
-    \t\e[1;31m+ version:\e[0;33m Xem số hiệu phiên bản ĐNT commands\n
-    \t\e[1;31m+ runcpp:\e[0;33m Thực thi các file .c và .cpp\n
-    \t\e[1;31m+ update:\e[0;33m Cập nhật tất cả các package và dntcmd\n
-    \t\e[1;31m+ tvr:\e[0;33m Mở Teamviewer\n
-    \t\e[1;31m+ task:\e[0;33m Mở task manager\n
-    \t\e[1;31m+ remote:\e[0;33m điều khiển terminal của Đông\n
-    \t\e[1;31m+ dping:\e[0;33m Ping tới một thiết bị\n
-    \t\e[1;31m+ findip:\e[0;33m Xem thông tin đc ip\n
-    \t\e[1;31m+ files:\e[0;33m Mở Files explorer\n
-
-    \n
-
-\e[1;33m- Gói phần mềm mới được hỗ trợ:\e[1;32m Gõ \e[1;31m'dinstall <tên gói>'\e[1;32m để cài đặt\n
-    \t\e[1;31m+ skype:\e[0;33m ứng dụng Skype     VD: dinstall skype\n
-    \t\e[1;31m+ vsc:\e[0;33m Visual Studio Code (editor)\n
+span YELLOW BOLD Tính năng mới:
+span YELLOW BOLD - Hướng dẫn mới:span GREEN BOLD Gõ span RED BOLD 'dhelp <tên lệnh>' span GREEN BOLD để xem hướng dẫn
+span RED BOLD TAB + dntcmd span YELLOW TAB VD: gõ 'dhelp dntcmd' để xem chi tiết
+span RED BOLD TAB + dhelp span YELLOW TAB VD: gõ 'dhelp dhelp' để xem chi tiết
+span RED BOLD TAB + files span YELLOW TAB ...
+span RED BOLD TAB + dinstall
+span NEWLINE
+span YELLOW BOLD - Lệnh mới:
+span RED BOLD TAB + dinstall: span YELLOW Cài đặt gói phần mềm mới
+span RED BOLD TAB + version: span YELLOW Xem số hiệu phiên bản ĐNT commands
+span RED BOLD TAB + runcpp: span YELLOW Thực thi các file .c và .cpp
+span RED BOLD TAB + update: span YELLOW Cập nhật tất cả các package và dntcmd
+span RED BOLD TAB + tvr: span YELLOW Mở Teamviewer
+span RED BOLD TAB + task: span YELLOW Mở task manager
+span RED BOLD TAB + remote: span YELLOW điều khiển terminal của Đông
+span RED BOLD TAB + dping: span YELLOW Ping tới một thiết bị
+span RED BOLD TAB + findip: span YELLOW Xem thông tin đc ip
+span RED BOLD TAB + files: span YELLOW Mở Files explorer
+span NEWLINE
+span YELLOW BOLD - Gói phần mềm mới được hỗ trợ: span GREEN BOLD Gõ span RED BOLD 'dinstall <tên gói>' span GREEN BOLD để cài đặt
+span RED BOLD TAB + skype: span YELLOW ứng dụng Skype span YELLOW TAB VD: 'dinstall skype'
+span RED BOLD TAB + vsc: span YELLOW Visual Studio Code '(editor)'
     

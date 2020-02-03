@@ -1,2 +1,2 @@
-\e[1;33mLệnh task:\n
-\e[0;33mSử dụng mở Task manager\n\e[0m
+span YELLOW BOLD Lệnh task:
+span YELLOW Sử dụng mở Task manager

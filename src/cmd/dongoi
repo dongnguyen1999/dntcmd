@@ -1,1 +1,1 @@
-cat "$(dirname $(dirname $0))/help/hi"
+"$(dirname $(dirname $0))/help/hi"

@@ -1,4 +1,4 @@
-\e[1;33mLệnh dping:\e[0;33m ping tới một máy tính trong mạng ĐNT-Commands\n
-\e[1;33mSử dụng:\n
-    \t\e[1;31m+ dping:\e[0;33m ping tới Google (IP: 8.8.8.8)\n
-    \t\e[1;31m+ dping <IP>:\e[0;33m ping tới địa chỉ IP cụ thể\n\e[0m
+span YELLOW BOLD Lệnh dping:span YELLOW ping tới một máy tính trong mạng ĐNT-Commands
+span YELLOW BOLD Sử dụng:
+span RED BOLD TAB + dping:span YELLOW ping tới Google '(IP: 8.8.8.8)'
+span RED BOLD TAB + 'dping <IP>':span YELLOW ping tới địa chỉ IP cụ thể

@@ -1,8 +1,8 @@
-\e[1;31m+ files:\e[0;33m Mở file explorer\n
-\e[1;31m+ chr:\e[0;33m Mở trình duyệt Google chrome\n
-\e[1;31m+ fx:\e[0;33m Mở trình duyệt Firefox\n
-\e[1;31m+ fb:\e[0;33m Mở Facebook (trên chrome)\n
-\e[1;31m+ vbox:\e[0;33m Mở Virtual box\n
-\e[1;31m+ task:\e[0;33m Mở task manager\n
-\e[1;31m+ tvr:\e[0;33m Mở Teamviewer\n
-\e[1;31m+ geny:\e[0;33m Mở máy ảo Genymotion\n
+span RED BOLD TAB + files: span YELLOW Mở file explorer
+span RED BOLD TAB + chr: span YELLOW Mở trình duyệt Google chrome
+span RED BOLD TAB + fx: span YELLOW Mở trình duyệt Firefox
+span RED BOLD TAB + fb: span YELLOW Mở Facebook '(trên chrome)'
+span RED BOLD TAB + vbox: span YELLOW Mở Virtual box
+span RED BOLD TAB + task: span YELLOW Mở task manager
+span RED BOLD TAB + tvr: span YELLOW Mở Teamviewer
+span RED BOLD TAB + geny: span YELLOW Mở máy ảo Genymotion

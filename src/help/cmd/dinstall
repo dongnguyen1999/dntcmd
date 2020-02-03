@@ -1,7 +1,7 @@
-\e[1;33mLệnh dinstall:\e[0;33m Cài đặt gói phần mềm mới\n
-\e[1;33mSử dụng:\n
-    \t\e[1;31m+ dinstall <tên gói>:\e[0;33m cài đặt gói phần mềm tự động\n
-    \t\e[0;33mVD:\n
-        \t\tdinstall skype: cài đặt skype\n
-        \t\tdinstall vsc: cài đặt visual studio code\n
-        \t\t...\n\e[0m
+span YELLOW BOLD Lệnh dinstall: span YELLOW Cài đặt gói phần mềm mới
+span YELLOW BOLD Sử dụng:
+span RED BOLD TAB + 'dinstall <tên gói>': span YELLOW cài đặt gói phần mềm tự động
+span YELLOW TAB VD:
+span YELLOW TAB TAB dinstall skype: cài đặt skype
+span YELLOW TAB TAB dinstall vsc: cài đặt visual studio code
+span YELLOW TAB TAB ...

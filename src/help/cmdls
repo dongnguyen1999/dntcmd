@@ -1,11 +1,11 @@
-\e[1;31m+ dntcmd:\e[0;33m Sử dụng các dịch vụ của ĐNT\n
-\e[1;31m+ version:\e[0;33m Xem số hiệu phiên bản ĐNT commands\n
-\e[1;31m+ hi:\e[0;33m Xem thông tin các tính năng mới nhất\n
-\e[1;31m+ dhelp:\e[0;33m Xem hướng dẫn, chi tiết lệnh\n
-\e[1;31m+ list:\e[0;33m Liệt kê các lệnh khả dụng\n
-\e[1;31m+ links:\e[0;33m Liệt kê các lối tắt khởi động nhanh\n
-\e[1;31m+ update:\e[0;33m Cập nhật tất cả các package và dntcmd\n
-\e[1;31m+ findip:\e[0;33m Xem địa chỉ ip một thiết bị trong mạng DNT\n
-\e[1;31m+ dping:\e[0;33m Ping tới một thiết bị trong mạng DNT\n
-\e[1;31m+ remote:\e[0;33m Điều khiển terminal của Đông thông qua dv ssh\n
-\e[1;31m+ runcpp:\e[0;33m Thực thi các file .c và .cpp\n
+span RED BOLD TAB + dntcmd: span YELLOW Sử dụng các dịch vụ của ĐNT
+span RED BOLD TAB + version: span YELLOW Xem số hiệu phiên bản ĐNT commands
+span RED BOLD TAB + hi: span YELLOW Xem thông tin các tính năng mới nhất
+span RED BOLD TAB + dhelp: span YELLOW Xem hướng dẫn, chi tiết lệnh
+span RED BOLD TAB + list: span YELLOW Liệt kê các lệnh khả dụng
+span RED BOLD TAB + links: span YELLOW Liệt kê các lối tắt khởi động nhanh
+span RED BOLD TAB + update: span YELLOW Cập nhật tất cả các package và dntcmd
+span RED BOLD TAB + findip: span YELLOW Xem địa chỉ ip một thiết bị trong mạng DNT
+span RED BOLD TAB + dping: span YELLOW Ping tới một thiết bị trong mạng DNT
+span RED BOLD TAB + remote: span YELLOW Điều khiển terminal của Đông thông qua dv ssh
+span RED BOLD TAB + runcpp: span YELLOW Thực thi các file .c và .cpp

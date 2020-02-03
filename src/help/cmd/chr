@@ -1,4 +1,4 @@
-\e[1;33mLệnh chr:\e[0;33m khởi động nhanh ứng dụng Google Chrome\n
-\e[1;33mSử dụng:\n
-    \t\e[1;31m+ chr:\e[0;33m Mở Chrome\n
-    \t\e[1;31m+ chr <link>:\e[0;33m Duyệt các đường link thông qua trình duyệt Chrome\n\e[0m
+span YELLOW BOLD Lệnh chr: span YELLOW khởi động nhanh ứng dụng Google Chrome
+span YELLOW BOLD Sử dụng:
+span RED BOLD TAB + chr: span YELLOW Mở Chrome
+span RED BOLD TAB + 'chr <link>': span YELLOW Duyệt các đường link thông qua trình duyệt Chrome

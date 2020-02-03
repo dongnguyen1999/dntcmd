@@ -1,2 +1,2 @@
-echo -e "\e[1;33mDanh sách các lối tắt khởi động nhanh:\e[0m"
-echo -e `cat "$(dirname $(dirname $0))/help/linkls"`
+span YELLOW BOLD Danh sách các lối tắt khởi động nhanh:
+"$(dirname $(dirname $0))/help/linkls"

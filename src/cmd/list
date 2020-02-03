@@ -1,5 +1,5 @@
-echo -e "\e[1;33mDanh sách các lệnh khả dụng:"
-echo -e "\e[1;33mLệnh:"
-echo -e `cat "$(dirname $(dirname $0))/help/cmdls"`
-echo -e "\e[1;33mLối tắt khởi động nhanh:"
-echo -e `cat "$(dirname $(dirname $0))/help/linkls"`
+span YELLOW BOLD Danh sách các lệnh khả dụng:
+span YELLOW BOLD Lệnh:
+"$(dirname $(dirname $0))/help/cmdls"
+span YELLOW BOLD Lối tắt khởi động nhanh:
+"$(dirname $(dirname $0))/help/linkls"

@@ -1,7 +1,7 @@
-\e[1;33mLệnh dntcmd:\e[0;33m Sử dụng các dịch vụ của ĐNT\n
-\e[1;33mSử dụng:\n
-    \t\e[1;31m+ dntcmd on:\e[0;33m Bật dịch vụ ĐNT commands\n
-    \t\e[1;31m+ dntcmd off:\e[0;33m Tắt dịch vụ ĐNT commands\n
-    \t\e[1;31m+ dntcmd update:\e[0;33m Cập nhật ĐNT commands\n\e[0m
+span YELLOW BOLD Lệnh dntcmd: span YELLOW Sử dụng các dịch vụ của ĐNT
+span YELLOW BOLD Sử dụng:
+    span RED BOLD TAB + dntcmd on: span YELLOW Bật dịch vụ ĐNT commands
+    span RED BOLD TAB + dntcmd off: span YELLOW Tắt dịch vụ ĐNT commands
+    span RED BOLD TAB + dntcmd update: span YELLOW Cập nhật ĐNT commands
 
 
