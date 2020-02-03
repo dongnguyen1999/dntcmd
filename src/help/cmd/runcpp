@@ -1,0 +1,4 @@
+span YELLOW BOLD Lệnh runcpp: span YELLOW Thực thi các file .c và .cpp viết bằng C/C++
+span YELLOW BOLD Sử dụng:
+span RED BOLD TAB + 'runcpp <tên file .c/cpp>': span YELLOW thực thi file nguồn .c/cpp chỉ định
+span RED BOLD TAB + 'runcpp <tên file .c/cpp> <arg1> <arg2> ...': span YELLOW thực thi file nguồn với đối số dòng lệnh

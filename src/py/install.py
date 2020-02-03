@@ -15,5 +15,5 @@ if len(sys.argv) > 1:
     elif arg.lower() == "vsc":
         subprocess.call("sudo " + vscPath, shell=True)
     else:
-        subprocess.call("sudo apt install " + arg, shell=True)
+        subprocess.call("sudo apt install -y " + arg, shell=True)
 

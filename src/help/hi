@@ -6,6 +6,7 @@ span RED BOLD TAB + files span YELLOW TAB ...
 span RED BOLD TAB + dinstall
 span RED BOLD TAB + span
 span YELLOW BOLD - Lệnh mới:
+span RED BOLD TAB + runpy: span YELLOW Thực thi các file .py viết bằng python3
 span RED BOLD TAB + span: span YELLOW Tô màu, định dạng 1 chuỗi trên terminal
 span RED BOLD TAB + dinstall: span YELLOW Cài đặt gói phần mềm mới
 span RED BOLD TAB + version: span YELLOW Xem số hiệu phiên bản ĐNT commands
@@ -13,11 +14,8 @@ span RED BOLD TAB + runcpp: span YELLOW Thực thi các file .c và .cpp
 span RED BOLD TAB + update: span YELLOW Cập nhật tất cả các package và dntcmd
 span RED BOLD TAB + tvr: span YELLOW Mở Teamviewer
 span RED BOLD TAB + task: span YELLOW Mở task manager
-span RED BOLD TAB + remote: span YELLOW điều khiển terminal của Đông
-span RED BOLD TAB + dping: span YELLOW Ping tới một thiết bị
-span RED BOLD TAB + findip: span YELLOW Xem thông tin đc ip
-span RED BOLD TAB + files: span YELLOW Mở Files explorer
 span YELLOW BOLD - Gói phần mềm mới được hỗ trợ: span GREEN BOLD Gõ span RED BOLD 'dinstall <tên gói>' span GREEN BOLD để cài đặt
 span RED BOLD TAB + skype: span YELLOW ứng dụng Skype span YELLOW TAB VD: 'dinstall skype'
 span RED BOLD TAB + vsc: span YELLOW Visual Studio Code '(editor)'
+span RED BOLD TAB + python3.7: span YELLOW trình thông dịch ngôn ngữ python v3.7
     

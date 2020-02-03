@@ -1,0 +1,4 @@
+span YELLOW BOLD Lệnh runpy: span YELLOW Thực thi các file .py viết bằng python3
+span YELLOW BOLD Sử dụng:
+span RED BOLD TAB + 'runpy <tên file .py>': span YELLOW thực thi file nguồn .py chỉ định
+span RED BOLD TAB + 'runpy <tên file .py> <arg1> <arg2> ...': span YELLOW thực thi file nguồn với đối số dòng lệnh

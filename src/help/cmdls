@@ -9,4 +9,5 @@ span RED BOLD TAB + update: span YELLOW Cập nhật tất cả các package và
 span RED BOLD TAB + findip: span YELLOW Xem địa chỉ ip một thiết bị trong mạng DNT
 span RED BOLD TAB + dping: span YELLOW Ping tới một thiết bị trong mạng DNT
 span RED BOLD TAB + remote: span YELLOW Điều khiển terminal của Đông thông qua dv ssh
-span RED BOLD TAB + runcpp: span YELLOW Thực thi các file .c và .cpp
+span RED BOLD TAB + runcpp: span YELLOW Thực thi các file .c và .cpp viết bằng C/C++
+span RED BOLD TAB + runpy: span YELLOW Thực thi các file .py viết bằng python3

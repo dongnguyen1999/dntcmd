@@ -1,0 +1,1 @@
+"$(dirname $(dirname $0))"/bash/compile/runpy.bash $@
