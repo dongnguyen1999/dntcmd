@@ -1,0 +1,14 @@
+span YELLOW BOLD Lệnh runjv: span YELLOW Thực thi java project viết bằng ngôn ngữ Java
+span YELLOW BOLD Sử dụng:
+span RED BOLD TAB + 'runjv <tên file main.java>': span YELLOW dựng project và chạy từ hàm span YELLOW BOLD main span YELLOW của file chỉ định
+span RED BOLD TAB + 'runjv <tên file main.java> <arg1> <arg2> ...': span YELLOW thực thi với đối số dòng lệnh
+span YELLOW TAB Nếu có sử dụng thư viện ngoài, copy các file thư viện span YELLOW BOLD .jar span YELLOW vào 1 thư mục tên span YELLOW BOLD "'lib'" span YELLOW ngang cấp với thư mục span YELLOW BOLD "'src'" 
+span YELLOW TAB Sau đó gọi hàm span RED BOLD 'runjv <tên file main.java>'
+span YELLOW TAB "|"
+span YELLOW TAB "|- ..."
+span YELLOW TAB "|- src"
+span YELLOW TAB "|- lib"
+span YELLOW TAB "|" span YELLOW TAB "|- lib1.jar"
+span YELLOW TAB "|" span YELLOW TAB "|- lib2.jar"
+span YELLOW TAB "|" span YELLOW TAB "|- ..."
+span YELLOW TAB "|- ..."

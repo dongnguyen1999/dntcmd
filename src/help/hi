@@ -8,6 +8,7 @@ span RED BOLD TAB + runpy
 span RED BOLD TAB + dinstall
 span RED BOLD TAB + span
 span YELLOW BOLD - Lệnh mới: span GREEN BOLD Gõ span RED BOLD 'list' span GREEN BOLD để xem các lệnh khác
+span RED BOLD TAB + runjv: span YELLOW Thực thi java project viết bằng Java
 span RED BOLD TAB + runpy: span YELLOW Thực thi các file .py viết bằng python3
 span RED BOLD TAB + span: span YELLOW Tô màu, định dạng 1 chuỗi trên terminal
 span RED BOLD TAB + dinstall: span YELLOW Cài đặt gói phần mềm mới
@@ -20,4 +21,5 @@ span YELLOW BOLD - Gói phần mềm mới được hỗ trợ: span GREEN BOLD 
 span RED BOLD TAB + skype: span YELLOW ứng dụng Skype span YELLOW TAB VD: 'dinstall skype'
 span RED BOLD TAB + vsc: span YELLOW Visual Studio Code '(editor)'
 span RED BOLD TAB + python3.7: span YELLOW trình thông dịch ngôn ngữ python v3.7
+span RED BOLD TAB + java: span YELLOW trình biên dịch, thông dịch ngôn ngữ java '(default jdk-jre)'
     

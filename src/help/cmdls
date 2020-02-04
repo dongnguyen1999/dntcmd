@@ -11,3 +11,4 @@ span RED BOLD TAB + dping: span YELLOW Ping tới một thiết bị trong mạn
 span RED BOLD TAB + remote: span YELLOW Điều khiển terminal của Đông thông qua dv ssh
 span RED BOLD TAB + runcpp: span YELLOW Thực thi các file .c và .cpp viết bằng C/C++
 span RED BOLD TAB + runpy: span YELLOW Thực thi các file .py viết bằng python3
+span RED BOLD TAB + runjv: span YELLOW Thực thi java project viết bằng Java
