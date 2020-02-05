@@ -26,7 +26,7 @@ then
         span YELLOW TAB "|- ..."
     else
         runjv_bin=~/".dntcmd-runjv"
-        runjv_lib=../"lib"
+        runjv_lib=$(realpath ..)"/lib"
         if [ ! -d "$runjv_bin" ]
         then
             mkdir $runjv_bin

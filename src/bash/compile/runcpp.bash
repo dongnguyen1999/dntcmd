@@ -1,13 +1,12 @@
 if [ "$#" -gt 0 ]
 then 
-    cd ~
-    gcc -o executable $(realpath $1)
-    chmod 755 executable;
+    gcc -o ~/executable $1
+    chmod 755 ~/executable;
     args=""
     for (( i=2; i <= "$#"; i++ )); do
         args="$args ${!i}"
     done
-    ./executable $args;
+    ~/executable $args;
     echo;
-    rm executable;
+    rm ~/executable;
 fi
