@@ -25,7 +25,7 @@ then
         span YELLOW TAB "|" span YELLOW TAB "|- ..."
         span YELLOW TAB "|- ..."
     else
-        runjv_bin=../"dntcmd-runjv"
+        runjv_bin=~/".dntcmd-runjv"
         runjv_lib=../"lib"
         if [ ! -d "$runjv_bin" ]
         then
