@@ -1,9 +1,10 @@
 if [ "$#" -gt 0 ]
 then 
-    gcc -o ~/executable $1
-    if [ ! "$?" -eq 0 ] 
+    if [ "${1##*.}" == "cpp" ] 
     then
         g++ -o ~/executable $1
+    else 
+        gcc -o ~/executable $1
     fi
     chmod 755 ~/executable
     args=""
