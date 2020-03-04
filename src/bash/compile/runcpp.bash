@@ -1,6 +1,10 @@
 if [ "$#" -gt 0 ]
 then 
     gcc -o ~/executable $1
+    if [ ! "$?" -eq 0 ] 
+    then
+        g++ -o ~/executable $1
+    fi
     chmod 755 ~/executable
     args=""
     for (( i=2; i <= "$#"; i++ )); do
