@@ -1,0 +1,2 @@
+echo "QT Creator is started!"
+(/usr/Programming-Tools/Qt5.0.1/Tools/QtCreator/bin/qtcreator $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &
