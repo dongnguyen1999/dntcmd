@@ -1,2 +1,2 @@
 echo "Star UML is started!"
-(~/Document/StarUML-3.2.2.AppImage $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &
+(~/Documents/StarUML-3.2.2.AppImage $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &
