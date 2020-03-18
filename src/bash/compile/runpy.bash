@@ -5,14 +5,13 @@ then
     then
         echo -e "\e[1;33mRunning $filename with python2"
         echo -en "\e[0;92m"
-        python $@ 2> >(while read line; do echo -e "\e[1;31m$line\e[0;92m" >&2; done)
+        python $1 #2> >(while read line; do echo -e "\e[1;31m$line\e[0;92m" >&2; done)
     else
         echo -e "\e[1;33mRunning $filename with python3"
         echo -en "\e[0;92m"
-        python3 $@ 2> >(while read line; do echo -e "\e[1;31m$line\e[0;92m" >&2; done)
+        python3 $1 2> >(while read line; do echo -e "\e[1;31m$line\e[0;92m" >&2; done)
     fi
-    echo -en "\e[0m"
-
+    # echo -en "\e[0m"
     if [ "$?" -eq 0 ]
     then 
         span NEWLINE GREEN BOLD Kết thúc tiến trình!
