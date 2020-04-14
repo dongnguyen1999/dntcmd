@@ -9,7 +9,7 @@ if len(sys.argv) > 1:
         or arg1.lower() == "a"
         or arg1.lower() == "adev"
         ):
-        print("25.77.168.129")
+        print("25.87.231.159")
     elif (arg1.lower() == "thu"
         or arg1.lower() == "mthu"
         or arg1.lower() == "em"

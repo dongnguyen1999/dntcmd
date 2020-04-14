@@ -11,8 +11,8 @@ if len(sys.argv) > 1:
         or arg1.lower() == "a"
         or arg1.lower() == "adev"
         ):
-        print("Ping to Đông (25.77.168.129)")
-        subprocess.call("ping 25.77.168.129", shell=True)
+        print("Ping to Đông (25.87.231.159)")
+        subprocess.call("ping 25.87.231.159", shell=True)
     elif (arg1.lower() == "thu"
         or arg1.lower() == "mthu"
         or arg1.lower() == "em"
