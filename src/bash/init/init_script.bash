@@ -1,9 +1,3 @@
-#Say hello user, the first messages
-ver=`version`
-span GREEN BOLD Hello span BLUE BOLD $USER! span GREEN BOLD Welcome to span YELLOW BOLD ĐNT Commands v$ver
-span GREEN BOLD Type span RED BOLD 'hi' span GREEN BOLD to get information about the newest features
-span GREEN BOLD Type span RED BOLD 'dhelp' span GREEN BOLD to get help about ĐNT Commands usage
-
 export PS1="\[\033[01;32m\]$USER@ĐNT-Commands\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$"
 #function to set title
 function set-title(){
@@ -22,6 +16,11 @@ cmd_path=$DNT_HOME/cmd #temp
 export UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1999/dntcmd.git"
 #update path
 export PATH=$cmd_path:$PATH
+#Say hello user, the first messages
+ver=`version`
+span GREEN BOLD Hello span BLUE BOLD $USER! span GREEN BOLD Welcome to span YELLOW BOLD ĐNT Commands v$ver
+span GREEN BOLD Type span RED BOLD 'hi' span GREEN BOLD to get information about the newest features
+span GREEN BOLD Type span RED BOLD 'dhelp' span GREEN BOLD to get help about ĐNT Commands usage
 #set auto update
 span GREEN BOLD Enter your password for autoupdate span RED BOLD '(Ctr+C to cancel)'
 echo -en "\e[1;32m"
