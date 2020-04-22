@@ -2,6 +2,10 @@
 SERVICE_NAME=haguichi.service
 SERVICE_HOME=$DNT_HOME/service
 
+if [ ! -f '~/.dntcmd.sv/' ]; then
+    mkdir -p ~/.dntcmd.sv/pid
+    mkdir -p ~/.dntcmd.sv/log
+fi
 PID_PATH_NAME=~/.dntcmd.sv/pid/$SERVICE_NAME
 LOG_PATH=~/.dntcmd.sv/log/$SERVICE_NAME.log
 case $1 in
