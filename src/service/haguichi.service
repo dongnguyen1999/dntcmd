@@ -1,10 +1,9 @@
 #!/bin/sh
-$DNT_HOME=`cat /var/dntcmd/DNT_HOME`
 SERVICE_NAME=haguichi.service
 SERVICE_HOME=$DNT_HOME/service
 
-PID_PATH_NAME=$SERVICE_HOME/pid/$SERVICE_NAME
-LOG_PATH=$SERVICE_HOME/log/$SERVICE_NAME.log
+PID_PATH_NAME=~/.dntcmd.sv/pid/$SERVICE_NAME
+LOG_PATH=~/.dntcmd.sv/log/$SERVICE_NAME.log
 case $1 in
     start)
         echo "Starting $SERVICE_NAME ..."
