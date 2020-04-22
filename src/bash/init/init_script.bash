@@ -14,7 +14,6 @@ export DNT_HOME=`cat $home_path`
 cmd_path=$DNT_HOME/cmd #temp
 #export link to open repository
 export UPDATE_REPO="https://dongnguyen1999:Dong1357432589@github.com/dongnguyen1999/dntcmd.git"
-export DNT_SERVICE_HOME=$DNT_HOME/service
 #update path
 export PATH=$cmd_path:$PATH
 #Say hello user, the first messages
@@ -26,5 +25,3 @@ span GREEN BOLD Type span RED BOLD 'dhelp' span GREEN BOLD to get help about ĐN
 span GREEN BOLD Enter your password for autoupdate span RED BOLD '(Ctr+C to cancel)'
 echo -en "\e[1;32m"
 dntcmd update 2>> "/var/dntcmd/update.log"
-sudo $DNT_SERVICE_HOME/haguichi.service restart 2>> "/var/dntcmd/service.log" >> "/var/dntcmd/service.log"
-sudo $DNT_SERVICE_HOME/haguichi.service start 2>> "/var/dntcmd/service.log" >> "/var/dntcmd/service.log"

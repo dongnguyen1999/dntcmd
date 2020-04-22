@@ -6,7 +6,6 @@ if [ -d "$update_path/dntcmd" ]; then
     cd "$update_path/dntcmd/src"
     sudo cp -r -t $DNT_HOME `ls`
     sudo rm -r "$update_path/dntcmd"
-    sudo chmod -R 777 $DNT_HOME
     #require init
     #if .bashrc_dnt is exist, recover before init again
     parentPath="$(dirname $(dirname $0))"
