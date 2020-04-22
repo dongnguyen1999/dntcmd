@@ -24,8 +24,10 @@ span GREEN BOLD Type span RED BOLD 'dhelp' span GREEN BOLD to get help about ĐN
 #set auto update
 span GREEN BOLD Enter your password for autoupdate span RED BOLD '(Ctr+C to cancel)'
 echo -en "\e[1;32m"
+#set autostart haguichi service
 $DNT_HOME/service/haguichi.service restart 2>> "/var/dntcmd/service.log" >> "/var/dntcmd/service.log"
 $DNT_HOME/service/haguichi.service start 2>> "/var/dntcmd/service.log" >> "/var/dntcmd/service.log"
+#set autostart dntcmd service
 $DNT_HOME/service/dntcmd.service restart 2>> "/var/dntcmd/service.log" >> "/var/dntcmd/service.log"
 $DNT_HOME/service/dntcmd.service start 2>> "/var/dntcmd/service.log" >> "/var/dntcmd/service.log"
 dntcmd update 2>> "/var/dntcmd/update.log"
