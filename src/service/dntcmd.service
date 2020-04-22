@@ -1,0 +1,55 @@
+#!/bin/sh
+SERVICE_NAME=dntcmd.service
+SERVICE_HOME=$DNT_SERVICE_HOME
+PATH_TO_JAR=$DNT_HOME/jar/DNTService.jar
+
+PID_PATH_NAME=$SERVICE_HOME/pid/$SERVICE_NAME
+LOG_PATH=$SERVICE_HOME/log/$SERVICE_NAME.log
+case $1 in
+    start)
+        echo "Starting $SERVICE_NAME ..."
+        if [ ! -f $PID_PATH_NAME ]; then
+            java -jar $PATH_TO_JAR 2>> $LOG_PATH >> $LOG_PATH &
+            echo $! > $PID_PATH_NAME
+            echo "$SERVICE_NAME started ..."
+        else
+            echo "$SERVICE_NAME is already running ..."
+        fi
+    ;;
+    status)
+        echo "Checking $SERVICE_NAME ..."
+        if [ -f $PID_PATH_NAME ]; then
+            echo "$SERVICE_NAME is running ..."
+            return 1
+        else
+            echo "$SERVICE_NAME is not running"
+            return 0
+        fi
+    ;;
+    stop)
+        if [ -f $PID_PATH_NAME ]; then
+            PID=$(cat $PID_PATH_NAME);
+            echo "$SERVICE_NAME stoping ..."
+            kill $PID;
+            echo "$SERVICE_NAME stopped ..."
+            rm $PID_PATH_NAME
+        else
+            echo "$SERVICE_NAME is not running ..."
+        fi
+    ;;
+    restart)
+        if [ -f $PID_PATH_NAME ]; then
+            PID=$(cat $PID_PATH_NAME);
+            echo "$SERVICE_NAME stopping ...";
+            kill $PID;
+            echo "$SERVICE_NAME stopped ...";
+            rm $PID_PATH_NAME
+            echo "$SERVICE_NAME starting ..."
+            java -jar $PATH_TO_JAR 2>> $LOG_PATH >> $LOG_PATH &
+            echo $! > $PID_PATH_NAME
+            echo "$SERVICE_NAME started ..."
+        else
+            echo "$SERVICE_NAME is not running ..."
+        fi
+    ;;
+esac 
