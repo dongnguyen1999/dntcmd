@@ -1,0 +1,2 @@
+echo "Netbean is started!"
+(/usr/Programming-Tools/netbeans-8.0/bin/netbeans $@ 1>>"/var/dntcmd/cmd.log" 2>> "/var/dntcmd/cmd.log") &
