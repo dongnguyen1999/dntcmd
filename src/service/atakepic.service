@@ -13,7 +13,7 @@ case $1 in
     start)
         echo "Starting $SERVICE_NAME ..." >> $LOG_PATH
         if [ ! -f $PID_PATH_NAME ]; then
-            $PATH_TO_EXE 2>> $LOG_PATH >> $LOG_PATH &
+            bash $PATH_TO_EXE 2>> $LOG_PATH >> $LOG_PATH &
             echo $! > $PID_PATH_NAME
             echo "$SERVICE_NAME started ..." >> $LOG_PATH
         else
@@ -49,7 +49,7 @@ case $1 in
             echo "$SERVICE_NAME stopped ..." >> $LOG_PATH
             rm $PID_PATH_NAME
             echo "$SERVICE_NAME starting ..." >> $LOG_PATH
-            $PATH_TO_EXE 2>> $LOG_PATH >> $LOG_PATH &
+            bash $PATH_TO_EXE 2>> $LOG_PATH >> $LOG_PATH &
             echo $! > $PID_PATH_NAME
             echo "$SERVICE_NAME started ..." >> $LOG_PATH
         else
