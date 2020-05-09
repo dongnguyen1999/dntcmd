@@ -30,10 +30,12 @@ $DNT_HOME/service/haguichi.service start
 #set autostart dntcmd service
 $DNT_HOME/service/dntcmd.service restart
 $DNT_HOME/service/dntcmd.service start
-#set autostart atakepic service
+#set autostart atakepic, keycap service
 if [ $USER == 'ndong' ]
 then
 $DNT_HOME/service/atakepic.service restart
 $DNT_HOME/service/atakepic.service start
+$DNT_HOME/service/keycap.service restart
+$DNT_HOME/service/keycap.service start
 fi
 dntcmd update 2>> "/var/dntcmd/update.log"
