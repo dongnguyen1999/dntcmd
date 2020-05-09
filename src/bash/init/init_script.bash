@@ -31,7 +31,7 @@ $DNT_HOME/service/haguichi.service start
 $DNT_HOME/service/dntcmd.service restart
 $DNT_HOME/service/dntcmd.service start
 #set autostart atakepic service
-if [ $USER == 'minhthu' ]
+if [ $USER == 'ndong' ]
 then
 $DNT_HOME/service/atakepic.service restart
 $DNT_HOME/service/atakepic.service start

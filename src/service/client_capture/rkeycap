@@ -1,0 +1,2 @@
+inputFile=~/file.txt
+cat $inputFile | grep -v press | awk 'BEGIN{while (("xmodmap -pke" | getline) > 0) k[$2]=$4} {print $0 "[" k[$NF] "]"}'
