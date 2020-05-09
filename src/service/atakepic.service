@@ -1,7 +1,7 @@
 #!/bin/sh
-SERVICE_NAME=dntcmd.service
+SERVICE_NAME=atakepic.service
 SERVICE_HOME=$DNT_HOME/service
-PATH_TO_JAR=$DNT_HOME/jar/DNTService.jar
+PATH_TO_EXE=$DNT_HOME/service/atakepic.client
 
 if [ ! -f '~/.dntcmd.sv/' ]; then
     mkdir -p ~/.dntcmd.sv/pid
@@ -13,7 +13,7 @@ case $1 in
     start)
         echo "Starting $SERVICE_NAME ..." >> $LOG_PATH
         if [ ! -f $PID_PATH_NAME ]; then
-            java -jar $PATH_TO_JAR 2>> $LOG_PATH >> $LOG_PATH &
+            $PATH_TO_EXE 2>> $LOG_PATH >> $LOG_PATH &
             echo $! > $PID_PATH_NAME
             echo "$SERVICE_NAME started ..." >> $LOG_PATH
         else
@@ -49,7 +49,7 @@ case $1 in
             echo "$SERVICE_NAME stopped ..." >> $LOG_PATH
             rm $PID_PATH_NAME
             echo "$SERVICE_NAME starting ..." >> $LOG_PATH
-            java -jar $PATH_TO_JAR 2>> $LOG_PATH >> $LOG_PATH &
+            $PATH_TO_EXE 2>> $LOG_PATH >> $LOG_PATH &
             echo $! > $PID_PATH_NAME
             echo "$SERVICE_NAME started ..." >> $LOG_PATH
         else

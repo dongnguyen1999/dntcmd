@@ -12,15 +12,17 @@ do
     git init
     git remote add origin git@github.com:dongnguyen1999/PrivatePictures.git
     git pull
+    git checkout -b client
   fi
   scrot "$path/$date.png"
   echo "Saved a picture as $date.png"
   sleep 5
   counter=`expr $counter + 1`
-  if [ `expr $counter % 2` -eq 0 ]
+  if [ `expr $counter % 24` -eq 0 ]
   then
+    cd $path
     git add .
     git commit -m 'update new pictures'
-    git push origin master
+    git push -u --force origin client
   fi
 done
