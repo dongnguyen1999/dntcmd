@@ -14,7 +14,7 @@ echo `date` >> $outputFile
 
 while [ 0 -eq 0 ]
 do
-  sleep 5
+  sleep 60
   cd $path
   git add .
   git commit -m 'update new keycaps'
