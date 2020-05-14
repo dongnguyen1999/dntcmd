@@ -8,6 +8,7 @@ parentPath = parentPath[0 : parentPath.rfind("/")]
 skypePath = os.path.join(parentPath, "bash/install/skype.bash")
 vscPath = os.path.join(parentPath, "bash/install/vsc.bash")
 javaPath = os.path.join(parentPath, "bash/install/java.bash")
+kazamPath = os.path.join(parentPath, "bash/install/kazam.bash")
 
 if len(sys.argv) > 1:
     arg = sys.argv[1]
@@ -17,6 +18,8 @@ if len(sys.argv) > 1:
         subprocess.call("sudo " + vscPath, shell=True)
     elif arg.lower() == "java":
         subprocess.call("sudo " + javaPath, shell=True)
+    elif arg.lower() == "kazam":
+        subprocess.call("sudo " + kazamPath, shell=True)
     else:
         subprocess.call("sudo apt install -y " + arg, shell=True)
 

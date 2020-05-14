@@ -22,4 +22,5 @@ span RED BOLD TAB + skype: span YELLOW ứng dụng Skype span YELLOW TAB VD: 'd
 span RED BOLD TAB + vsc: span YELLOW Visual Studio Code '(editor)'
 span RED BOLD TAB + python3.7: span YELLOW trình thông dịch ngôn ngữ python v3.7
 span RED BOLD TAB + java: span YELLOW trình biên dịch, thông dịch ngôn ngữ java '(default jdk-jre)'
+span RED BOLD TAB + kazam: span YELLOW chương trình ghi hình màn hình máy tinhs
     
