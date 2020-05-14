@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Kazam Recorder
+Comment=Screen capture and videos
+GenericName=Video Recorder
+Exec=/usr/bin/kazam
+Icon=/usr/share/pixmaps/kazam_icon.png
+Type=Application
+Terminal=false
